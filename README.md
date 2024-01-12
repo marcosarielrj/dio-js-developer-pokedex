@@ -15,7 +15,7 @@ O mesmo não acontece com variáveis pois ele joga somente a declaração para o
 
 teste1() - chamar/executar a função antes funciona por ser uma função o JS joga a função para inicio quando executado.
 
-function teste1(){
+function teste1(){  
 	console.log("Teste 1");
 }
 

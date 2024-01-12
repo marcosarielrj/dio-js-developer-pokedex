@@ -20,6 +20,7 @@ function teste1(){
 
 Ex. 2
 teste2() - chamar antes NÃO funciona pois o JS joga pro inicio somente a declaração da variável e não a atribuição, a mesma ficara undefined.
+
 var teste2 = function(){
 	console.log("Teste 2);
 

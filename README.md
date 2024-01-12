@@ -23,12 +23,12 @@ function teste1(){
 
 teste2() - chamar antes NÃO funciona pois o JS joga pro inicio somente a declaração da variável e não a atribuição, a mesma ficara undefined.
 
-var teste2 = function(){...
-	... console.log("Teste 2);
+var teste2 = function(){  
+	console.log("Teste 2);
 
 * Ex. 3
 
 console.log(var1) - O resultado será undefined pois o JS joga apenas a declaração da variável para o inicio sem sua atribuição de valores. 
 
-var1 = 10;...
-... console.log(var1) - Chamar a variável após a atribuição retorna o valor atribuido no caso 10; 
+var1 = 10;  
+console.log(var1) - Chamar a variável após a atribuição retorna o valor atribuido no caso 10; 
